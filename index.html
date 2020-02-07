@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var array=[];
+        // total=0;
+        // function add(n){
+        // for(i=1;i<n;i++){
+        //     total+=i
+        //     console.log(i)
+        //     array.push(i)
+        // }
+        // }
+        // add(10)
+        // console.log(array);
+        // console.log(total)
+        
+        // var arr=[];
+        // function add(n){
+        //     for(var i=1;i<=n;i++){
+        //       if(i%3===0 && i%5===0){
+        //           console.log("welcome")
+        //         arr.push("welcome");
+        //       }
+        //        else if(i%3===0){
+        //           console.log("hi")
+        //           arr.push("hi");
+        //       } else if(i%5===0){
+        //           console.log("hello")
+        //           arr.push("hello");
+        //       }
+        //       else{
+        //           console.log(i);
+        //           arr.push(i);
+        //       }
+        //     }
+        // }
+        // add(50);
+        // console.log(arr)
+        // var string=[];
+        // arr.forEach(function(element){
+        //     string+=(element+",")
+
+        // })
+        // console.log(string)
+
+    //  var arr=[12,14,16,19,29]
+    //  var total=0;
+    //  for(i=0;i<arr.length;i++){
+    //     total+=arr[i]
+
+    //  }
+    //  console.log(total)
+
+
+    // var ar=[];
+    // function venkat(){
+    //     var object={name:"venky",id:1,language:"english"}
+    //     var object1={name:"ravi",id:2,language:"tamil"}
+    //     ar.push(object);
+    //     ar.push(object1);
+    //     if(object.name=="veky"){
+    //      console.log("venkatreddy")
+    //     }else{
+    //         console.log("wrongname")
+    //     }
+    // }
+    // venkat()
+    // console.log(ar);
+
+     //filter method////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    // let group=[{id:1,name:"sigma",hobbies:"singing"},{id:2,name:"alpha",hobbies:"dancing"},{id:3,name:"bita",hobbies:"dancing"}]
+    //   let marry=group.filter(function(element){
+    //    if(element.hobbies=="dancing"){
+    //       return true;
+    //    }
+    //   })
+    //   console.log(marry);
+
+    //
+    
+ //for of and for in loops/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    // var hr=[{id:1,name:"rathod",busy:true},{id:2,name:"vishwas",busy:false}];
+    // //   for(key in hr){
+    // //     console.log(key);
+    // //   }
+    //   for(hari of hr){
+    //       if(hari.name=="vishwas"){
+    //       console.log(hari.busy)
+    //       }
+    //   }
+      
+    
+    // for(i=1;i<24;i++){
+    //     if(i%2==0){
+    //         console.log(i)
+    //     }
+    // }
+
+
+    // var arr=[2,6,3,8,9,5]
+    // var z=arr.sort(function(a,b){
+    //    return b-a
+    // });
+    
+    // console.log(z);
+    
+    
+ /////////////////// ///////////// print divisible by 2 and square them/////////////////////////////////////////////
+
+    // var arr=[]
+    // var total=0
+    
+    // function add(n){
+    //     for(i=0;i<n;i++){
+           
+    //         if(i%2===0){
+    //         console.log(i)
+    //         arr.push(i*2);
+    //         total+=i
+    //     }
+    //     }
+    // }
+    // add(10)
+    // console.log(arr);
+    // console.log(total)
+    
+       //PUSHING OBJECTS INTO AN ARRAY////////////////////////////////////////////////////////////////////////////
+
+    // var srinu={}
+    //   car=[]
+    //   srinu.id=1;
+    //   srinu.name="hello"
+    //   srinu.add=function(a,b){
+    //       return a*b
+    //   }
+    // car.push(srinu);
+    // console.log(srinu)
+
+// mahesh={id:15,name:"kalyan",hobbies:"football"}
+// mahesh.name="venkat";
+
+// console.log(mahesh);
+
+// var d=[1,2,3,4,5,6,7]
+// d.pop(4,5,6)
+// console.log(d)
+
+
+// var z="abc defghij klmnop qrstuv wxyz"
+// var h=z.split(" ",2);
+// console.log(h);
+    
+//    
+
+
+//difference between slice and splice///////////////////////////////////////////////////////////////////////////
+
+// var z="Venkatreddy";
+//  var h=z.slice(3,7)
+//  console.log(h)
+
+
+//  var fruits = ["apple","banana", "Mango","grapes","beens",];
+
+//   var del=fruits.splice(2,3)
+//   console.log(fruits);
+
+  ///basic loops/////////////////////////////////////////////////////////////////////////////////////
+
+// for(i=0;i<5;i++){
+//     console.log(i);
+// }
+
+
+//  var i=1;
+//  while(i<10){
+//      console.log(i)
+//      i++;
+//  }
+
+// var i=1;
+// do{
+//     console.log("the number you have selected is" + " "+ i)
+// }
+// while(i>5);
+
+/////functions///////////////////////////////////////////////////////////////////////////////////////////////
+
+/////NAMED FUNCTIONS
+
+// function add(a,b){
+//     return a*b;
+
+// }
+// console.log(add(2,3));
+
+/////ANONYMOUS FUNCTIONS
+
+// var add=function(a,b){
+//     return a*b;
+// }
+// console.log(add(2,3));
+
+///CONSTRUCTOR FUNCTIONS
+
+// var  add= new Function("a","b","return a*b");
+// console.log(add(2,9));
+
+////////SELF INVOKING FUNCTIONS
+
+// (function(a,b){
+//    console.log(a*b);
+// }(2,15));
+
+
+///closure property////////////////////////////////////////////////////////////////////////////////////////////
+
+    //   var add= function(a,b){
+    //         var x=10;
+    //         return (function(){
+    //              d=a*b;
+    //             console.log(d)
+
+    //         })()
+    //     }
+    //     add(8,3);                                                                                                                                                                                               
+
+////map and set//////////////////////////////////////////////////////////////////////////////////////
+
+
+// let map=new Map();
+// map.set("a",1).set("b",2)
+// console.log(map);
+
+
+// let map1=new Set();
+// map1.add("a",1).add("b",1).add("c",1).add("d",1)
+// console.log(map1);
+
+// var ages=[1,2,3,4,5,6,7,8]
+//  var constages=ages.map(function(x){
+//     return Math.sqrt(x)
+
+//  }).map(function(y){
+//       return  y*2;  
+//  })
+//  console.log(constages);
+
+
+
+////reduce method to add ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var x=[4,5,9,7,9,5];
+// var red=x.reduce(function(total,sum){
+//     return total+sum;
+// },0)
+// console.log(red)
+
+
+ //////  add and print first 27 numbers/////////////////////////////////////////////////////////////////////////////////////
+
+// var x=[];
+// total=0;
+// function add(n){
+//     for(i=1;i<n;i++){
+//         total+=i
+//         console.log(i)
+//         x.push(i)
+//     }
+// }
+//     add(27)
+//     console.log(x)
+//     console.log(total)
+
+    // var red=x.reduce(function(total,sum){
+    //     return total+sum;
+    // },0)
+    // console.log(red)
+ 
+ //////////////array destructuring//////////////
+//  var arr=[4,5,6,7,8,9];
+//  var [a,b,c,d,e,f]=[4,5,6,7,8,9];
+//  console.log(arr);
+//  console.log(a);
+
+
+// let ages=[8,9,7,6,6,4];
+// total=0
+// for(i=0;i<ages.length;i++){
+//     console.log(ages[i])
+//     total+=ages[i]
+// }
+// console.log(total)
+
+
+
+
+  </script>
+
+
+
+   
+    
+</body>
+</html>
